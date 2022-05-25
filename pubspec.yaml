@@ -1,0 +1,29 @@
+name: self_care_mock
+description: A mock of self-care module.
+publish_to: "none" 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  font_awesome_flutter: ^10.1.0
+  google_fonts: ^3.0.1
+  url_launcher: ^6.1.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/poppins/
